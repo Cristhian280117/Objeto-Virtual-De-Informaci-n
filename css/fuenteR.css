@@ -1,0 +1,32 @@
+/*
+ * The Typekit service used to deliver this font or fonts for use on websites
+ * is provided by Adobe and is subject to these Terms of Use
+ * http://www.adobe.com/products/eulas/tou_typekit. For font license
+ * information, see the list below.
+ *
+ * ubuntu-mono:
+ *   - http://typekit.com/eulas/00000000000000003b9b139c
+ * utopia-std-headline:
+ *   - http://typekit.com/eulas/000000000000000000013049
+ *
+ * © 2009-2019 Adobe Systems Incorporated. All Rights Reserved.
+ */
+/*{"last_published":"2019-04-11 16:44:50 UTC"}*/
+
+@import url("https://p.typekit.net/p.css?s=1&k=kcq8kyx&ht=tk&f=14533.18219&a=22294037&app=typekit&e=css");
+
+@font-face {
+font-family:"ubuntu-mono";
+src:url("https://use.typekit.net/af/bc1516/00000000000000003b9b139c/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("woff2"),url("https://use.typekit.net/af/bc1516/00000000000000003b9b139c/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("woff"),url("https://use.typekit.net/af/bc1516/00000000000000003b9b139c/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("opentype");
+font-style:italic;font-weight:700;
+}
+
+@font-face {
+font-family:"utopia-std-headline";
+src:url("https://use.typekit.net/af/a55e3d/000000000000000000013049/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"),url("https://use.typekit.net/af/a55e3d/000000000000000000013049/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"),url("https://use.typekit.net/af/a55e3d/000000000000000000013049/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+font-style:normal;font-weight:400;
+}
+
+.tk-ubuntu-mono { font-family: "ubuntu-mono",monospace; }
+.tk-utopia-std-headline { font-family: "utopia-std-headline",serif; }
+body { font-family: "ubuntu-mono",monospace; }
